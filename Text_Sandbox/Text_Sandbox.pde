@@ -24,6 +24,8 @@ titleHeight= displayHeight*1/10;
 //Lay out text space and typographical Features
 rect(titleX, titleY, titleWidth, titleHeight);
 fill(purple); //Ink, hexidecimal copied from Color selector
+textAlign(CENTER,CENTER); //Values: [LEFT| CENTER | RIGHT]&[TOP | CENTER | BOTTOM | BASELINE]
+textFont(titleFont, 55);//Change the number until it fits
 
 //Printing Text to Canvas 
 text(title, titleX, titleY, titleWidth, titleHeight);
